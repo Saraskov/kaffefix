@@ -1,0 +1,115 @@
+/*
+ Theme Name:   Astra Child
+ Theme URI:    http://saraskov.dk/astra-child/
+ Description:  Astra Child Theme
+ Author:       Sara Skov og Sif Aagaard-Svendsen
+ Author URI:   http://saraskov.dk
+ Template:     astra
+ Version:      1.0.0
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC');
+
+/* Styleguide typografi*/
+p {
+	font-family: Noto Sans TC, sans-serif;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 28px;
+	color: #0a0a0a;
+}
+
+H1 {
+	font-family: Noto Sans TC, sans-serif;
+	font-size: 30px;
+	font-weight: 300;
+	line-height: 36px;
+	Color: #9c5339;
+}
+
+H2 {
+	font-family: Noto Sans TC, sans-serif;
+	font-size: 25px;
+	font-weight: 500;
+	line-height: 25px;
+}
+
+H3 {
+	font-family: Noto Sans TC, sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 20px;
+}
+
+H4 {
+	font-family: Noto Sans TC, sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 18px;
+}
+
+H5 {
+	font-family: Noto Sans TC, sans-serif;
+	font-size: 15px;
+	font-weight: 500;
+	line-height: 15px;
+}
+
+H6 {
+	font-family: Noto Sans TC, sans-serif;
+	font-size: 13px;
+	font-weight: 500;
+	line-height: 22px;
+}
+
+/*Ændre farve på entry-meta*/
+.entry-meta, .entry-meta * {
+	color: #0a0a0a;
+}
+.author-name {
+	color: #9c5339;
+}
+
+/*Ændre på send knappen i formularer*/
+#nf-field-8 {
+	padding: 5px 20px;
+	font-weight: 500;
+	color: #ffffff;
+}
+
+#nf-field-14 {
+	font-weight: 500;
+	color: #ffffff;
+}
+
+/*Ændre på font-weight i labels på ninja forms*/
+.nf-field-label label {
+	font-weight: 500 !important;
+}
+
+/*Ændre på overskriften i artiklerne*/
+.entry-title {
+    font-weight: 300;
+}
+
+/*Ændre på menubar border forsvinder kun på tablet portrait mode*/
+.main-header-bar {
+    border-bottom-width: 1px;
+    border-bottom-color: #b8896f;
+}
+
+/*Ændre liniehøjde på kategori tekst beskrivelse*/
+.ast-archive-description p {
+    line-height: 28px;
+}
+
+/*Ændre tekstfarven på send kommentar knappen*/
+.menu-toggle, button, .ast-button, .button, input#submit, input[type="button"], input[type="submit"], input[type="reset"] {
+	color: #ffffff;
+}
+
+/*FOOTER
+ Fjerner list decoration på menuen i footeren*/
+#menu-footer-navigation {
+	list-style: none;
+}
